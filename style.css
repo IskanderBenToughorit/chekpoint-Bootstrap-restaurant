@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+body {
+    background-color: #E0F7FA; /* Bleu océan clair */
+}
+
+
+
+
+/* Couleur des liens dans la Navbar */
+.navbar a {
+    color: #FFFFFF; /* Blanc pur */
+}
+
+/* Couleur des liens au survol */
+.navbar a:hover {
+    color: #F5F5F5; /* Gris très clair */
+}
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1565821565054-5a0124eaf4d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fGZpcnVpdHMlMjBvZiUyMG1lcnxlbnwwfHx8fDE2ODQ1Mzk2NzQ&ixlib=rb-1.2.1&q=80&w=1080');
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero a {
+    margin-top: 20px;
+}
+
+.menu-card {
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+}
+
+.about-img {
+    border-radius: 15px;
+    max-height: 400px;
+    object-fit: cover;
+}
